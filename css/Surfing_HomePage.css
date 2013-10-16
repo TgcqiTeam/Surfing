@@ -3,17 +3,53 @@ body{text-align:center;width:100%;text-decoration: none;}
 a,ul,li{list-style-type: none;}
 
 
-#body_bgcolor{width:1349px;height:667px;border:1px solid ;}
+#body_bgcolor{width:1349px;height:6946px;border:1px solid ;background-color: rgb(237,237,239)}
 /*-----------------------------Surfing_HomePage_Header-----------------------------------------*/
-#HomePage_Header{width:100%;height:82px;margin:0;padding:0;background-color: rgb(86,86,86)}
+#HomePage_Header{width:100%;height:82px;margin:0 0 30px 0;padding:0;background-color: rgb(86,86,86)}
 #Header_bar{width:928px;height:76px;margin: 0 auto;padding:6px 0 0 0;}
 #mylogo{display: block;width:80px;height:62px;background-image: url("../Images/Surfing.png");background-repeat: no-repeat;float: left}
-#Header_tbtag{width:420px;height:44px;padding:30px 0 0 0;border:1px solid;float: right}
+#Header_tbtag{width:420px;height:54px;padding:20px 0 0 0;float: right}
 .topbar li{width:80px;height:47px;padding:0;margin:0;float: right;font-size: 20px;font-family: Arial;font-weight: 700;}
 .topbar a{display: block;width:60px;height:47px;color:rgb(255,255,255);}
-#Header_Serach{width:186px;height:26px;padding: 2px 0 2px 0;float: right;border:1px solid ;margin:20px 0 0 0}
-
+#Header_Serach{width:226px;height:29px;padding: 6px 0 2px 14px;float: right;margin:20px 0 0 0;background-image: url("../Images/icon.png");background-position:0 -40px; }
+#search_img{display: block;width:16px;height:16px;float: left;margin:0 10px 0 0;background-image: url("../Images/icon.png");background-position: 0 -81px}
+#search_keyword{display: block;float: left;width:170px;background-color: transparent;border:0px;}
 
 
 /*-----------------------------Surfing_HomePage_Header end-----------------------------------------*/
+#HomePage_main{width:928px;height:6946px;margin:auto;padding:0;border:1px solid #ccc;}
+#main_left{width:670px;height:6946px;float: left}
+#area{width:666px;height:110px;box-shadow: 0 0 1px rgba(0,0,0,0.2);padding:0 2px 0 2px;margin: 0 0 20px 0;}
+.a_nav1 li{width:139px;height:110px;float: left;}
+.a_nav1 a{display: block;width:139px;height:110px;}
+#user1{width:110px;height:110px;}
+#area1{ display: block;width:110px;height:110px;;background-image: url("../Images/area_nav1.png");background-position:-3px -2px ;background-repeat: no-repeat;}
+#area2{background-image: url("../Images/area_nav1.png");background-position:-113px -2px ;background-repeat: no-repeat;}
+#area3{background-image: url("../Images/area_nav1.png");background-position:-252px -2px ;background-repeat: no-repeat;}
+#area4{background-image: url("../Images/area_nav1.png");background-position:-391px -2px ;background-repeat: no-repeat;}
+#area5{background-image: url("../Images/area_nav1.png");background-position:-530px -2px ;background-repeat: no-repeat;}
+#main_right{width:230px;height:871px;border:1px solid #ccc;float: right}
+.recordlist{width:666px;height:237px;padding:0 2px 0 2px;margin:0 0 16px 0;}
+.head_img{width:64px;height:64px;padding:0;margin:0;border:1px solid #ccc;float: left}
+.records_right{width:585px;height:237px;float: left;margin:0 0 0 15px;}
+.records_head{width:585px;height:24px;float: left;background-image: url("../Images/records.png");background-position: 2px 0;background-repeat: no-repeat;position: relative;}
+.white{width:19px;height:19px;position: absolute;top:0;right:0;background-image: url("../Images/records.png");background-position: -670px 0;}
+.records_main{width:500px;padding:3px 32px 28px 53px;float: left;background-image: url("../Images/records.png");background-position: -1013px 0;}
+.main_who{width:500px;height:19px;}
+.Uname{float: left}
+.record_contents{width:500px;border:1px solid #ccc;height:300px;}
+.record_bottom{width:500px;height:19px;float: left;margin:10px 0 0 0;}
+.category{width:245px;height:19px;float: left;border:1px solid ;}
+.tag{width:245px;height:19px;float: right;border:1px solid ;}
+.tag a{font-size: 12px;font-family: Arial;line-height: 19px;color:rgb(170,170,170);float: left}
+.hot{display:block;height:19px;margin:0 0 0 12px;float: left}
+.discussion{display:block;height:19px;margin:0 0 0 12px;float: left}
+.reprint{display:block;width:24px;height:17px;margin:0 0 0 12px;float: left}
+.recommend{display:block;width:24px;height:17px;margin:0 0 0 12px;float: left}
+.like{display:block;width:14px;height:19px;margin:0 0 0 12px;float: left;background-image: url("../Images/icon24.png");background-position: 0 -178px;}
+/*-------------------------Surfing_HomePage_main--------------------------------------------------------*/
 
+
+
+
+/*-------------------------Surfing_HomePage_main end--------------------------------------------------------*/

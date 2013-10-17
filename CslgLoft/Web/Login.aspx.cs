@@ -13,23 +13,22 @@ namespace Matisoft.Web
         public static string Password;
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Login_dl.Attributes["onclick"] = this.Page.ClientScript.GetPostBackEventReference(this.Page, "点击myDiv");
+            this.Login_dl.Attributes["onclick"] = this.Page.ClientScript.GetPostBackEventReference(this.Page, "登录");
         }
         public void RaisePostBackEvent(string eventArgument)
         {
-            if (eventArgument == "点击myDiv")
+            if (eventArgument == "登录")
             {
+                CustomerEmail = this.Customertx.Text;
+                Password = this.Passwordtx.Text;
+                BLL.Customer bllcustomer = new BLL.Customer();
+                List<Model.Customer> customerlist = bllcustomer.GetModelList("1=1");
 
-                    CustomerEmail = this.CustomerEmailtxt.Value;
-                    Password = this.Passwordtxt.Value;
-                  //  ScriptManager.RegisterStartupScript(this, this.GetType(), this.GetHashCode().ToString(),
-                 // "alert("+Password+")", true);
-                
-                
-               // BLL.Customer me = new BLL.Customer();
-               // Model.userInfo user = bllUserInfo.GetModel(Convert.ToInt32(userID));
-            
+                Model.Customer customer = new Model.Customer();
+                customer.CustomerName = "123";
+
             }
+
         }
     }
 }

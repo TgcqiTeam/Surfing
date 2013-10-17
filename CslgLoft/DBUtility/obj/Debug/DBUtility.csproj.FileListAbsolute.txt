@@ -7,3 +7,12 @@ C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\System.Data.SQLite.DLL
 C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\ResolveAssemblyReference.cache
 C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.dll
 C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.pdb
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\Matisoft.DBUtility.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\Matisoft.DBUtility.pdb
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\IBatisNet.Common.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.pdb

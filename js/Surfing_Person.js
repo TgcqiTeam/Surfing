@@ -22,4 +22,14 @@ function changeimg(){
            $(this).find(".span1").css("color","rgb(51, 51, 51)");
            $(this).find(".span2").css("color","rgb(51, 51, 51)");
 	  });
+      
+       $(".span4").hover(function(){
+            $(this).css("text-decoration","underline");
+           
+	  },function(){
+            $(this).css("text-decoration","none");
+	  });
+      
+
+
 }

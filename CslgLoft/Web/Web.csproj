@@ -358,9 +358,11 @@
     <Content Include="js\Sc2.js" />
     <Content Include="js\test.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Master.aspx" />
     <Content Include="Surfing_HomePage.aspx" />
     <Content Include="Surfing_Person.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Zhuce.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.aspx.cs">
@@ -369,6 +371,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.aspx.cs">
+      <DependentUpon>Master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.aspx.designer.cs">
+      <DependentUpon>Master.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SurfingMuban.Master.cs">
@@ -391,6 +400,13 @@
     </Compile>
     <Compile Include="Surfing_Person.aspx.designer.cs">
       <DependentUpon>Surfing_Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zhuce.aspx.cs">
+      <DependentUpon>Zhuce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zhuce.aspx.designer.cs">
+      <DependentUpon>Zhuce.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

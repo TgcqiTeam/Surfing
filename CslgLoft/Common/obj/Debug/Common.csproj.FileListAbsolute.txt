@@ -7,3 +7,12 @@ C:\CodematicDemo\CslgLoft\Common\bin\Debug\OWC10Chart.dll
 C:\CodematicDemo\CslgLoft\Common\obj\Debug\ResolveAssemblyReference.cache
 C:\CodematicDemo\CslgLoft\Common\obj\Debug\Matisoft.Common.dll
 C:\CodematicDemo\CslgLoft\Common\obj\Debug\Matisoft.Common.pdb
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\Matisoft.Common.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\Matisoft.Common.pdb
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\Excel.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\OpenSmtp.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\bin\Debug\OWC10Chart.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\obj\Debug\Matisoft.Common.dll
+C:\Users\Administrator\Documents\GitHub\Surfing\CslgLoft\Common\obj\Debug\Matisoft.Common.pdb

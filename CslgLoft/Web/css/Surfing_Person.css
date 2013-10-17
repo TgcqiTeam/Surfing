@@ -1,0 +1,38 @@
+body{margin:0px;text-align: center;position: relative;color: rgb(51,51,51);}
+ul,li{list-style: none;margin: 0px;padding: 0px}
+a{text-decoration: none;}
+img{border: 0;}
+.span1{font-size: 20px;color: rgb(51, 51, 51);display: block;font-family: Arial;font-weight: 400;line-height: 20px;margin-bottom: 4px;}
+.span2{font-size: 12px;color: rgb(51, 51, 51);display: block;font-family: Arial;font-weight: 400;line-height: 13.5px;}
+
+
+/*-----------topbiaoti-----------*/
+
+#topbiaoti{width: 100%;height: 82px;background-color: #ddd;}
+#content{width: 100%;height: 1650px;background-image: url("image/footer.png");background-position: 50% 100%;background-repeat: no-repeat;text-align: center;}
+#beijing{background-image: url("image/body_repeat.png");background-repeat: repeat-x;background-color: rgb(190, 225, 245);}
+#beijingtop{background-image: url("image/body_bg2.png");background-repeat: no-repeat;background-position: 50% 0px;}
+#centertop{width: 980px;height: 1446px;margin: 0 auto}
+#personimg{width: 980px;height: 439px}
+  #personimg1{width: 980px;height: 300px;background-image: url("image/029.jpg");position: relative;}
+   #piaofu{width: 23px;height: 24px;position: absolute;right: 0px;top: 0px;background-image: url("image/personicon.png");background-position: -477px 0px;cursor: pointer;}
+  #personimg2{width: 980px;height: 124px;position: relative;background-color: rgb(255,255,255);padding-bottom: 15px;*height: 139px}
+   #piaofu2{width:184px;height: 235px;position: absolute;top: -108px;left: 20px;background-color: rgb(250, 250, 250);box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);border-color:rgb(217, 217, 217);}
+      #headimage{width: 180px;height: 180px;padding: 2px;*width: 184px;*height: 184px;background-image: url("image/male_180_uploading.png");}
+      #headinfo{width: 184px;height: 42px;margin-bottom: 4px;margin-top: 5px}
+      .li1{float: left;}
+      #headli1{width: 53px;height: 39px;padding: 0 3px 3px 3px;*width: 59px;*height: 42px;border-right: 1px solid rgb(217,217,217);}
+      #headli2{width: 64px;height: 39px;padding-bottom: 3px;*height: 42px;border-right: 1px solid rgb(217,217,217);}
+      #headli3{width: 53px;height: 39px;padding: 0 3px 3px 3px;*width: 59px;*height: 42px}
+      .heada{display: block;text-align: center;}
+      #heada1{width: 53px;height: 39px} 
+      #heada2{width: 64px;height: 39px} 
+      #heada3{width: 53px;height: 39px} 
+
+
+
+#personinfo{width: 980px;height: 1007px}
+   
+
+
+/*-----------topbiaoti end-------*/

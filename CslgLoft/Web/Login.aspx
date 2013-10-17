@@ -8,9 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="css/Loft.css"></link>
 		<script type="text/javascript" src="js/jQuery.js"></script>
 		<script type="text/javascript" src="js/Loft.js"></script>
-       
 	</head>
 	<body>
+    <form id="form1" runat="server">
 		<div id="divfirst">
 			<div id="logoT">
 				<div id="lg"></div>
@@ -23,7 +23,7 @@
 			</div>
 			<div id="divmostbuttom">
 				<div class="divbuttom_1">网易公司版权所有</div>
-				<div class="divbuttom_1">©1997-2013</div>
+				<div class="divbuttom_1">?1997-2013</div>
 				<div class="divbuttom_1" id="divbuttom_2">粤ICP备20090191号</div>
 				<div class="divbuttom_1" id="divbuttom_5">客户端</div>
 				<div class="divbuttom_1" id="divbuttom_4">模板</div>
@@ -60,23 +60,26 @@
 						</div>
 					<div id="zhuce_left">
 						<div class="zhuce_title">使用网易通行证/邮箱登录</div>
-						<div class="divTxt" runat="server">
-							<input runat="server" type="text" class="Txts" id="CustomerEmailtxt"  placeholder="邮箱"    />
+						<div id="Div1" class="divTxt" runat="server">
+							  <asp:textbox  runat="server"  class="Txts" id="Customertx"   placeholder="邮箱" > </asp:TextBox>
 						</div>
-						<div class="divTxt" runat="server">
-                            <input  runat="server" type="text" class="Txts" id="Passwordtxt"  placeholder="密码" /> 
+						<div id="Div2" class="divTxt" runat="server">
+                      
+                            <asp:textbox  runat="server"  class="Txts" id="Passwordtx"   placeholder="密码" > </asp:TextBox>
+                       
+                            <input type="hidden" id="bz" runat="server" />
 						</div>
-                         <form id="form1" runat="server">
+                       
                          <asp:ScriptManager ID="ScriptManager1" runat="server">
                          </asp:ScriptManager>
                          <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
                               <ContentTemplate>
-                            <div runat="server" id="Login_dl" class="btnLogin2 bl" >
+                            <div runat="server" id="Login_dl" class="btnLogin2 bl">
 					        	登录
 						    </div>
                         </ContentTemplate>
                          </asp:UpdatePanel>
-                         </form>
+                      
 						
 						<div id="forgetpwd">
 							<input type="checkbox" id="cb"/>
@@ -329,7 +332,6 @@
 			</div>
 		</div>
 	</div>
+       </form>
 	</body>
 </html>
-
-

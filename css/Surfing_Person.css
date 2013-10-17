@@ -4,14 +4,17 @@ a{text-decoration: none;}
 img{border: 0;}
 .span1{font-size: 20px;color: rgb(51, 51, 51);display: block;font-family: Arial;font-weight: 400;line-height: 20px;margin-bottom: 4px;}
 .span2{font-size: 12px;color: rgb(51, 51, 51);display: block;font-family: Arial;font-weight: 400;line-height: 13.5px;}
-
-
+.span3{font-size: 20px;color: rgb(51, 51, 51);display: block;font-family: Arial;font-weight: 400;line-height: 30px}
+.span4{color: rgb(10, 140, 210);font-family: Arial;font-size: 12px;font-weight: 400;line-height: 14px;cursor: pointer;float: left;}
+.spanfengge{width: 3px;height: 14px;margin: 0 9px 0 5px;display: block;float: left;font-family:  "SimSun";font-size: 12px;margin-top: 5px;color: rgb(217, 217, 217);}
+.span4fujia{margin-top: 5px}
+.span5{font-size: 12px;color: rgb(51, 51, 51);font-family: Arial;font-size: 12px;font-weight: 400;line-height: 14px;cursor: pointer;float: left;}
 /*-----------topbiaoti-----------*/
 
 #topbiaoti{width: 100%;height: 82px;background-color: #ddd;}
 #content{width: 100%;height: 1650px;background-image: url("../Images/footer.png");background-position: 50% 100%;background-repeat: no-repeat;text-align: center;}
 #beijing{background-image: url("../Images/body_repeat.png");background-repeat: repeat-x;background-color: rgb(190, 225, 245);}
-#beijingtop{background-image: url("../Images/body_bg.png");background-repeat: no-repeat;background-position: 50% 0px;}
+#beijingtop{background-image: url("../Images/body_bg2.png");background-repeat: no-repeat;background-position: 50% 0px;}
 #centertop{width: 980px;height: 1446px;margin: 0 auto}
 #personimg{width: 980px;height: 439px}
   #personimg1{width: 980px;height: 300px;background-image: url("../Images/029.jpg");position: relative;}
@@ -28,9 +31,17 @@ img{border: 0;}
       #heada1{width: 53px;height: 39px} 
       #heada2{width: 64px;height: 39px} 
       #heada3{width: 53px;height: 39px} 
+   #rightgeren{width: 755px;height: 114px;margin-left: 225px;padding-top: 10px;*height: 124px;text-align:left;}  
+   #rightgeren1{width: 550px;height: 114px;padding-right: 30px;*width: 580px;text-align: left;}
+      #name{width: 550px;height: 30px;margin-bottom: 8px;text-align: left;}
+      #jieshao{width: 550px;height: 14px;margin-bottom: 8px;text-align: left;}
+      #xinxi{width: 550px;height: 24px;margin-bottom: 8px;text-align: left;}
+      #bianjispan{width: 72px;height: 18px;padding: 0px 9px 0 10px;*width: 91px;line-height: 18px;background-color: rgb(242, 242, 242);} 
+      #bianjid{width: 93px;height: 20px;border: 1px solid rgb(255,255,255);border-radius: 2px 2px 2px 2px;background-color: rgb(242, 242, 242);}
 
 
-
+         #sex{width: 12px;height: 13px;background-image: url("../Images/personicon.png");background-position: -300px 0px;float: left;margin-top: 5px}
+      #bianji{width: 550px;height: 22px;text-align: left;line-height: }
 #personinfo{width: 980px;height: 1007px}
    
 

@@ -1,0 +1,87 @@
+body{text-align: center;width:100%;}
+*{margin:0;padding:0;}
+
+#head{width:100%;height:380px;background-color:#ededed;border:1px solid #ccc;}
+#Login{width:180px;height:26px;background-color:transparent;float:right;margin-top:30px;margin-right:45px;text-align:left;line-height:26px;color:#666666;font-size:14px;font-family: Microsoft YaHei;}
+#Login_a{width:60px;height:26px;font-family:Microsoft YaHei;font-size:14px;color:#666666;}
+.h2{width:100%;height:60px;font-size:48px;color:rgb(51,51,51);letter-spacing:3px;text-align:center;margin-top: 98px;}
+#h2_ch{font-family:Microsoft YaHei;font-weight:700;letter-spacing: 3px;line-height:60px;font-size:42px;}
+#h2_e{font-family:Arial;width:auto;height:auto;}
+#h3{font-family:Microsoft YaHei;font-size: 14px;height:19px;margin-top:10px;width:100%;letter-spacing: 3px;color:rgb(51,51,51);}
+#btnLogin{background:url("images/login-24.png");background-position:0 -1084px;width:342px;height:42px;margin:49px auto auto auto;line-height:42px;text-align:center;font-family:Microsoft YaHei;color:rgb(255, 255, 255);font-size:20px;letter-spacing:3px;cursor:pointer; }
+#btnLogin1{background:url("images/login-24.png");background-position:0 -1084px;width:342px;height:42px;margin:49px auto auto auto;line-height:42px;text-align:center;font-family:Microsoft YaHei;color:rgb(255, 255, 255);font-size:20px;letter-spacing:3px;cursor:pointer; }
+.btnLogin2{background:url("images/login-24.png");background-position:0 -1084px;width:333px;height:42px;line-height:42px;text-align:center;font-family:Microsoft YaHei;color:rgb(255, 255, 255);font-size:20px;letter-spacing:3px;cursor:pointer; float:left;}
+#fast{height:990px;width:100%;background-color:#ffffff;border:1px solid #ccc;}
+#fast_1{height:42px;width:136px;color: #BBBBBB;font-size:36px;font-family:Microsoft YaHei;margin:30px auto auto auto;line-height:42px;}
+#fast_2{width:800px;height:72px;color:#333333;font-size:42px;font-family:Microsoft YaHei;margin:20px auto auto auto;font-weight:700;}
+#fast_3{width:500px;height:60px;margin:20px auto auto auto;}
+#piaoliang{position:relative;width:100%;height:688px;border:1px solid #ccc;background-color:#ededef;}
+#youqu{width:100%;height:1120px;background-color:#ffffff;}
+#buttom{width:100%;height:380px;background-color:#ededef;}
+#buttom_blank{width:100%;height:52px}
+#about{width:60%;height:36px;font-family:Microsoft YaHei;margin:auto;}
+.buttom_guan{cursor:pointer;height:36px;color:rgb(74,80,88);line-height:20px;font-size:12px;border-right:1px solid #88b6de;float:left;padding-right:8px;padding-left: 8px;line-height:36px;}
+#buttom_guan1{width:auto;border-right:1px solid #88b6de;}
+#buttom_guan2{width:auto;border-right:1px solid #88b6de;margin:auto; }
+#buttom_guan3{width:auto;}
+#buttom_guan4{float:right;width:auto;margin-right:15px;border-right-width:0px;}
+#abc{border:4px 4px 0 4px;border-style: dashed;border-style: dashed;border-color: transparent;border-top-color: rgb(194, 194, 194);border-top-style: solid;color:rgb(255,255,255);}
+#btn1{width:150px;height:56px;background-color:#000;margin:0px 2px 0px 2px;float:left;color:#ffffff;cursor:pointer;font-size:24px;line-height:56px;font-family:Microsoft YaHei;}
+#img{height:594px;width:927px;background:url("images/mobile.jpg");margin:auto;margin-top:50px;}
+#bg{height:320px;width:100%;background:url("images/bg.jpg");margin:auto;margin-top:50px;color:rgb(68,68,68);background-color:transparent;opacity:0.4;background-repeat:no-repeat;}
+#spanbg{height:320px;width:396px;background:url("images/img.jpg");border:1px solid #ccc;margin:auto;position:absolute;left:500px;top: 210px;}
+#d{width:103%;height:756px;}
+#d_left{width:230px;height:756px;float:left;}
+.image{margin-left:5px;width:215px;height:230px;margin-bottom:26px;float:left;position:relative; }
+.image_i{height:194px;width:215px;float:left;display:block;background-size:auto auto;cursor:pointer;z-index:10;}
+#image_i1{height:194px;width:215px;float:left;display:block;background-size:auto auto;cursor:pointer;z-index:11;position:absolute;background:rgba(30,30,100,0.3);display:none;}
+#image_i2{height:452px;width:453px;float:left;display:block;background-size:auto auto;cursor:pointer;z-index:11;position:absolute;background:rgba(30,30,100,0.3);display:none;}
+#image_b{height:30px;width:215px;float:left;line-height:30px;text-align:left;color:rgb(102,102,102);font-family:Microsoft YaHei;cursor:pointer;font-size:12px;}
+.image_icon{height:25px;width:25px;margin-right:10px;display:block;float:left;background-size:auto auto;cursor:pointer; }
+.image_c{height:30px;width:150px;float:left;cursor:pointer; }
+#divUp{cursor:pointer;height:50px;width:50px;background:url("images/icon2-8.png");background-position:0px -933px;position:fixed;right:100;bottom:50px;z-index:100;display:none;}
+#divfirst{width:100%;height:670px;background-image:url("images/905505000178420928.jpg");background-size:100% 100%; }
+#jieshao{width:100%;height:100%;display:none;}
+#logoT{width:100%;height:218px;position:absolute;top:120px;left:0px;background-repeat:no-repeat;}
+#lg{width:427px;height:133px;background:url("images/login-24.png");margin:auto;}
+#lg2{width:450px;height:30px;font-size:22px;font-weight:400px;letter-spacing:12px;color:rgb(255,255,255);margin:auto;}
+.btn{cursor:pointer;width:184px;height:52px;background-color:#000;margin:0px 7px 0px 7px;float:left;color:#ffffff;font-size:20px;letter-spacing:12px;font-weight:400px;line-height:52px;font-family:Microsoft YaHei; }
+#btndiv{width:618px;height:52px;left:380px;position:absolute;top:338px;margin:auto; }
+#btn12{background-color:#ccc;color:#000;}
+#divbuttom{background-color:#ffffff;width:100%;height:330px;position:absolute;top:327px;margin:auto;display:none;position:relative; }
+#sanjiao{background:url("images/login-24.png");background-position:-402px -291px;width:36px;height:17px;position:absolute;top:310px;display:none;left:460px;}
+#zhuce{position:absolute;left:350px;top:30px;width:635px;height: 230px;padding-left:5px;padding-right:5px;}
+#zhuce_left{width:360px;height:230px;float:left;display:none;}
+#zhuce_right{width:233px;height:230px;float:right;position:relative;}
+.zhuce_title{color:#888888;font-size:14px;font-family:Microsoft YaHei;float:left;width:auto;height:39px;}
+.divTxt{width:333px;height:43px;float:left;border:1px solid #ccc;margin-bottom:10px;}
+.Txts{border:1px;border-color;#fff;width:200px;height:35px;margin:auto;line-height:35px;color:#ccc;font-size:16px;font-family:Microsoft YaHei;margin-top:5px;float:left;margin-left:10px; }
+#shuaxing{cursor: pointer;border-left:1px solid #ccc;width:43px;height:43px;background:url("images/login-24.png");background-position:-174px -656px;float:right;}
+#forgetpwd{width:333px;height:33px;float:left;margin-top:5px;}
+#cb{float:left;margin-right:10px;}
+#fpwd{float:left;color:#aaa;font-size:12px;font-family:Microsoft YaHei;display:block;text-decoration:none;}
+#rpwd{float:right;color:#aaa;font-size:12px;font-family:Microsoft YaHei;display:block;text-decoration:none;}
+#divspan{position:absolute;width:1px;background-color:#ccc;height:150px;left:-40px;top:40px;z-index:2;}
+#spanhuo{position:absolute;width:20px;height:20px;color:#ccc;left:-50px;top:100px;z-index:3;background-color:#ffffff;}
+.dengluimage{background:url("images/login-24.png");float:left;padding-left:40px;width:135px;*width:180px;height:40px;margin-bottom:15px;background-size:auto auto;color:#ffffff;font-size: 14px;line-height:40px;background-repeat:no-repeat;font-family:Microsoft YaHei;cursor:pointer;*text-align:left;}
+#dengluimage1{background-position:-1px -504px;}
+#dengluimage2{background-position:-1px -559px;}
+#dengluimage3{background-position:-1px -614px;}
+#zhuce_left_2{width:360px;height:230px;float:left;}
+#divmostbuttom{width:100%;height:17px;color:rgb(90, 93, 95);font-family:微软雅黑;position:absolute;bottom:0px;left:0px;}
+.divbuttom_1{text-align:left;width:96px;height:17px;line-height:17px;color:rgb(100,100,100);font-family:Microsoft YaHei;font-size: 12px;float:left;margin-left:10px;margin-right:6px;}
+#divbuttom_2{width:130px;border-right:1px solid #ccc;cursor:pointer;cursor:pointer;}
+#divbuttom_3{display:block;float:left;margin-left:5px;margin-right:5px;width:48px;height:17px;cursor:pointer;}
+#divbuttom_4{display:block;float:left;margin-left:5px;margin-right:5px;width:24px;height:17px;cursor:pointer;}
+#divbuttom_5{display:block;float:left;margin-left:5px;margin-right:5px;width:36px;height:17px;cursor:pointer;}
+#divmostbuttom_right{margin-right:20px;width:300px;height:19px;float:right;}
+.spanclick{width:19px;height:19px;margin-left:3px;margin-right:3px;float:right;background-repeat:no-repeat;}
+#span1{background:url("images/login-24.png");background-position:-419px -200px;}
+#span2{background:url("images/login-24.png");background-position:-395px -200px;}
+#name{font-family:微软雅黑;color:rgb(100,100,100);font-weight:400px;width:auto;cursor:pointer;font-size: 12px;text-shadow:(0,0,0,0.6);}
+#divcenter{width:910px;height:756px;float:left;}
+#mostbigimage{width:452px;height:486px;float:left;margin-left:5px;}
+#image_most{width:452px;height:450px;background:url("images/imgsize.ph.126.net.jpg");cursor:pointer;}
+
+
+

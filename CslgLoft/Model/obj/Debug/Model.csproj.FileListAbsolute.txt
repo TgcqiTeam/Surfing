@@ -1,0 +1,5 @@
+C:\CodematicDemo\CslgLoft\Model\bin\Debug\Matisoft.Model.dll
+C:\CodematicDemo\CslgLoft\Model\bin\Debug\Matisoft.Model.pdb
+C:\CodematicDemo\CslgLoft\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\CodematicDemo\CslgLoft\Model\obj\Debug\Matisoft.Model.dll
+C:\CodematicDemo\CslgLoft\Model\obj\Debug\Matisoft.Model.pdb

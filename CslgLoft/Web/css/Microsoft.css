@@ -1,0 +1,70 @@
+body{text-align: center;width:100%;font-family:Arial;}
+*{margin:0;padding:0;}
+
+
+#TopBlank{width:100%;height:27px;}
+#Title{width:90%;height:53px;margin-left:auto;margin-right:auto;}
+#Logo{float:left;margin-top:1px;}
+#SearchText{width:30%;border:1px solid #ccc;height: 24px;float:right;margin-top:3px;}
+#SearchLogo{width:16px;height:16px;float:right;margin-top:3px;}
+#TopDaohangDiv{width:90%;height: 43px;margin-left:14px;margin-left:auto;margin-right:auto;position:relative; }
+.DropDown{cursor:pointer;width:107px;height:43px;float:left;color:#000000;font-family:Arial;font-size:16px;font-weight:400px;line-height:36px;}
+#StoreLink{width:25%;height: 23px;float:right;display:block;color:#3cb7f0;margin-top:10px;text-decoration:none;}
+#imageM{width:100%;height:455px;border-top:5px solid #ddd;position:relative;cursor:pointer;}
+#div_2{width:100%;height:519px;margin-top:33px;margin-bottom:33px;}
+#div_2_in{width:90%;height:517px;margin:auto;}
+#div_2_in_left{width:20%;height: 352px;float:left;}
+#div_2_in_right{width:75%;height:517px;float:right;}
+#heading{width:100%;height: 48px;line-height:48px;font-size:38px;color:#000000;font-family:Arial;text-align:left;margin-top:9px;margin-bottom:19px;}
+.h_li{cursor:pointer;width:100%;text-align:left;height:25px;color:#3cb7f0;font-size:20px;margin-bottom:14px;text-align:left;  }
+.h_li2{cursor:pointer;width:100%;text-align:left;height:25px;color:#3cb7f0;font-size:20px;margin-bottom:14px;text-align:left;  }
+#div_2_right_top{width:110%;height:76px;line-height:76px;font-family:Arial;font-size: 38px;text-align:left; }
+#forwork_a{float:left;display:block;width:60px;*width:80px;height:20px;border:1px solid #ccc;background-color:rgb(21,112,166);padding-left: 6px;*padding-left: 15px;padding-right:4px;padding-top:8px;padding-bottom:8px;margin-left:30px;color:rgb(255,255,255);margin-top:22px;font-size:13px;text-align:left;font-family:wf_SegoeUI;text-decoration:none;}
+#left{float:left;width:154px;}
+#right_top{width:100%;height:76px;}
+#features{width:100%;height:240px;}
+#features_2{width:100%;height:202px;}
+#marginleftno{margin-left:0px;}
+.imageshuo{width:278px;height:192px;float:left;margin-left:20px;color:rgb(8,48,71);font-size:14.4px;font-weight: 400;text-align:left;text-decoration:none;position:relative;  }
+#shuoming{width:100%;height:43px;float:left;color:#3cb7f0;font-size:14.4px;font-weight: 400;text-align:left;text-decoration:none;font-family:Arial; }
+.imagec{float:left;width:278px;height:139px;cursor:pointer;}
+#mengban{float:left;width:278px;height:139px;background:rgba(30,30,100,0.3);position:absolute;display:none;cursor:pointer; }
+.features_div_1{height:174px;width:278px;margin-left:22px;float:left;}
+.features_heading{margin-bottom:14px;text-align:left;width:100%;height:33px;line-height:33px;font-family:Arial;font-weight:300;font-size:26px;color:#000000;}
+.features_chanping{width:100%;cursor:pointer;font-size:16px;color:#3cb7f0;text-align:left;font-family:Arial;height:auto;line-height:18px;margin-bottom:10px; }
+#div_center{width:100%;height:209px;padding-top:33px;padding-bottom:33px;background-color: rgb(21, 112, 166); }
+#div_center_1{width:90%;height:208px;margin:auto;}
+#div_center_left{width:277px;height:174px;float:left;}
+.colorwhite{color:#ffffff;}
+#heading2{width:100%;height: 48px;line-height:48px;font-size:38px;color:#ffffff;font-family:Arial;text-align:left;margin-top:9px;margin-bottom:19px;}
+#div_center_right{cursor:pointer ;margin-top:10px ;width:821px;height:130px;padding:20px;float:right;background-color: rgba(0, 0, 0, 0.16);}
+#div_center_img{float:left;height:112px;width:150px;margin-right:21px;}
+#div_wenzi{float:left;width:630px;height:120px;}
+#div_title{float:left;width:100%;height:68px;font-size:24px;font-family:Arial;text-align:left;color:#ffffff; font-style: normal;}
+#div_neirong{float:left;width:100%;height:34px;font-size:16px;font-family:Arial;text-align:left;color:#ffffff; font-style: normal;}
+#div_buttom_top{width:100%;height:500px;padding-top:33px;background-color:#eeeeee;}
+#div_buttom_top_in{width:90%;height:500px;margin:auto; }
+#div_buttom_left{width:277px;height:360px;float:left;}
+.div_buttom_head{text-align:left;width:277px;height:20px;margin-top:4px;margin-bottom:18px;font-family:Arial;font-size:16px;color:rgb(0,0,0);}
+.div_buttom_li{cursor:pointer;text-align:left;height:27px;width:200px;float:left;color:#000000;font-size: 16px;font-family:Arial;margin-bottom:10px; }
+.div_buttom_image{width:26px;height:26px;float:left;margin-right:20px;}
+#div_buttom_2{width:260px;height:428px;float:left;}
+.marginright{*margin-right:20px;margin-right: }
+#div_buttom_2_top{width:277px;height:140px;float:left; }
+#div_buttom_2_center{width:277px;height:110px;float:left; }
+#div_buttom_but{width: 277px;height:110px;float:left;}
+#div_foot{width:90%;height:70px;float:left;margin:auto;   }
+#grid_col{width:277px;height:37px;float:left; }
+#floatleft{float:left;margin-right:5px;}
+#diva{display:block;float:left;width:150px;height:19px;color:#3cb7f0;font-size:13px;font-family:Arial;text-align:left;line-height:36px;cursor:pointer; }
+#Logo_buttom{width:50%;float:right;height:21px;}
+#floatright{float:right;}
+#foot_right{width:60%;float:right;height:50px;}
+#foot_right1{width:104px;height:20px;margin-left:17px;margin-top:20px;color:#000000;font-size:13px;float:right;  }
+.footlast{width:auto;height:20px;margin-left:5px;margin-right:5px;float:right;color:#3cb7f0;font-size:13px;margin-top:20px;cursor:pointer;}
+#searchbox{border:0px;height:22px;line-height:22px;width:300px;float:left;margin-left:3px; }
+.selectedbox{left:0px;width:100%;height:500px;top:125px;position:absolute;background-color:rgb(238, 238, 238);float:left;display:none;}
+#grid-row{width:88%;height:444px;margin:auto;margin-top:10px;}
+#marginT{margin-top:40px;margin-bottom:21px;}
+#image_container{width:80%;height: 52px;position:absolute;top:500px;right:100px;  }
+.no1-3{cursor:pointer;float:right;width:20px;height:20px;margin-left:10px;margin-top:7px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;background-color:rgb(255,255,255);color:rgb(255,255,255);}

@@ -1,0 +1,9 @@
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\Matisoft.DBUtility.dll
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\Matisoft.DBUtility.pdb
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\IBatisNet.Common.dll
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\MySql.Data.dll
+C:\CodematicDemo\CslgLoft\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.dll
+C:\CodematicDemo\CslgLoft\DBUtility\obj\Debug\Matisoft.DBUtility.pdb

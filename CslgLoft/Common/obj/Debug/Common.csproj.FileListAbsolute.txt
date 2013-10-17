@@ -1,0 +1,9 @@
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\Matisoft.Common.dll
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\Matisoft.Common.pdb
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\COM.Excel.dll
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\Excel.dll
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\OpenSmtp.dll
+C:\CodematicDemo\CslgLoft\Common\bin\Debug\OWC10Chart.dll
+C:\CodematicDemo\CslgLoft\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\CodematicDemo\CslgLoft\Common\obj\Debug\Matisoft.Common.dll
+C:\CodematicDemo\CslgLoft\Common\obj\Debug\Matisoft.Common.pdb

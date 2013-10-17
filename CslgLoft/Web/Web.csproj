@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B535162-10C2-4238-BC56-193B968E1834}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Matisoft.Web</RootNamespace>
+    <AssemblyName>Matisoft.Web</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LTP.Accounts, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LTP.Accounts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LtpPageControl, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Lib\LtpPageControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls, Version=1.0.2.226, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Microsoft.Web.UI.WebControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\apple.css" />
+    <Content Include="css\eBay.css" />
+    <Content Include="css\images\1.jpg" />
+    <Content Include="css\images\110.jpg" />
+    <Content Include="css\images\12.jpg" />
+    <Content Include="css\images\13693035465分钟BBE2.jpg" />
+    <Content Include="css\images\1372989363淘宝首页设计入门.jpg" />
+    <Content Include="css\images\13744716261304837974545_副本.jpg" />
+    <Content Include="css\images\1378784034_01337_small.jpg" />
+    <Content Include="css\images\1378800403chengshibankuaishangxian164-122.jpg" />
+    <Content Include="css\images\1378868586化繁而简-0828.jpg" />
+    <Content Include="css\images\1379821372chaguan13-164-122.jpg" />
+    <Content Include="css\images\1380089296万圣节banner770x245.jpg" />
+    <Content Include="css\images\1380166560澳洲海外仓 banner.jpg" />
+    <Content Include="css\images\1380252644全面解析.jpg" />
+    <Content Include="css\images\1380525106【0929】分享嘉宾计划banner.jpg" />
+    <Content Include="css\images\14.jpg" />
+    <Content Include="css\images\140057_784.jpg" />
+    <Content Include="css\images\18.jpg" />
+    <Content Include="css\images\19.jpg" />
+    <Content Include="css\images\2.jpg" />
+    <Content Include="css\images\20.jpg" />
+    <Content Include="css\images\20091021173129385b2.gif" />
+    <Content Include="css\images\200910211732505a618.jpg" />
+    <Content Include="css\images\20091202120803d2c39.jpg" />
+    <Content Include="css\images\2009120416360460ee3.jpg" />
+    <Content Include="css\images\20091204180357acf1f.jpg" />
+    <Content Include="css\images\2010012319313178307.jpg" />
+    <Content Include="css\images\20100323173707f5e70.jpg" />
+    <Content Include="css\images\20100402171952338f6.jpg" />
+    <Content Include="css\images\2010041615593496584.jpg" />
+    <Content Include="css\images\201008061334474950d.jpg" />
+    <Content Include="css\images\20110310141818a3648.jpg" />
+    <Content Include="css\images\2011112115251989038.jpg" />
+    <Content Include="css\images\20111221C.png" />
+    <Content Include="css\images\2012091714243997d8d.jpg" />
+    <Content Include="css\images\201209171444298aa53.jpg" />
+    <Content Include="css\images\20120917170425cd9da.jpg" />
+    <Content Include="css\images\2012101515500176918.jpg" />
+    <Content Include="css\images\20121029131541b388a.jpg" />
+    <Content Include="css\images\2012102913210391254.jpg" />
+    <Content Include="css\images\20121029134055efb31.jpg" />
+    <Content Include="css\images\2012110210481987a0b.jpg" />
+    <Content Include="css\images\201211021721442d4bd.jpg" />
+    <Content Include="css\images\20121102173456e3bd0.jpg" />
+    <Content Include="css\images\201212261807371fbec.jpg" />
+    <Content Include="css\images\201212291243069f122.jpg" />
+    <Content Include="css\images\2013-09-24T01-30-08.262Z.png" />
+    <Content Include="css\images\2013-09-24T02-09-20.114Z.png" />
+    <Content Include="css\images\2013-09-24T02-10-51.597Z.png" />
+    <Content Include="css\images\20130301153118017d7.jpg" />
+    <Content Include="css\images\20130311182939cb298.jpg" />
+    <Content Include="css\images\20130312020506cecce.jpg" />
+    <Content Include="css\images\20130329.jpg" />
+    <Content Include="css\images\20130330A.png" />
+    <Content Include="css\images\20130330A_1.png" />
+    <Content Include="css\images\201304131711356d6da.jpg" />
+    <Content Include="css\images\2013042406534907089.jpg" />
+    <Content Include="css\images\2013051616143079a3b.jpg" />
+    <Content Include="css\images\201306201434087a2d4.jpg" />
+    <Content Include="css\images\201306201435298ffee.jpg" />
+    <Content Include="css\images\20130725.png" />
+    <Content Include="css\images\20130729133001a22b5.jpg" />
+    <Content Include="css\images\201307291335396c31c.jpg" />
+    <Content Include="css\images\20130729133810dc6a7.jpg" />
+    <Content Include="css\images\201308220947248ec9b.jpg" />
+    <Content Include="css\images\20130822165837cd050.jpg" />
+    <Content Include="css\images\2013082614162707d12.jpg" />
+    <Content Include="css\images\20130827161156fcba4.jpg" />
+    <Content Include="css\images\20130830073526781de.jpg" />
+    <Content Include="css\images\2013090210485123289.jpg" />
+    <Content Include="css\images\201309021424395fa06.jpg" />
+    <Content Include="css\images\20130903132455c52fd.jpg" />
+    <Content Include="css\images\2013090317045126a60.jpg" />
+    <Content Include="css\images\201309040827132a6d5.jpg" />
+    <Content Include="css\images\201309050759437f0c9.jpg" />
+    <Content Include="css\images\201309050800094a4f6.jpg" />
+    <Content Include="css\images\20130905080032e1fad.jpg" />
+    <Content Include="css\images\20130905082440c3124.jpg" />
+    <Content Include="css\images\201309051104571efe1.jpg" />
+    <Content Include="css\images\2013090610331555afb.jpg" />
+    <Content Include="css\images\20130906134309c6102.jpg" />
+    <Content Include="css\images\201309090951383d696.jpg" />
+    <Content Include="css\images\2013091110212311267.jpg" />
+    <Content Include="css\images\2013091110295602725.jpg" />
+    <Content Include="css\images\201309111032310e298.jpg" />
+    <Content Include="css\images\201309111035049f85f.jpg" />
+    <Content Include="css\images\201309111037213f36f.jpg" />
+    <Content Include="css\images\20130911112517719fd.jpg" />
+    <Content Include="css\images\2013091113394995613.jpg" />
+    <Content Include="css\images\201309111350038b77e.jpg" />
+    <Content Include="css\images\20130911135534f9193.jpg" />
+    <Content Include="css\images\20130911174430b062f.jpg" />
+    <Content Include="css\images\20130911175217c1b4a.jpg" />
+    <Content Include="css\images\201309111756131ae68.jpg" />
+    <Content Include="css\images\2013091118000290f5e.jpg" />
+    <Content Include="css\images\2013091208453975c80.jpg" />
+    <Content Include="css\images\2013091208461853db8.jpg" />
+    <Content Include="css\images\201309120846295960e.jpg" />
+    <Content Include="css\images\2013091208464078b7e.jpg" />
+    <Content Include="css\images\20130912090837afbc7.jpg" />
+    <Content Include="css\images\20130912092454e2178.jpg" />
+    <Content Include="css\images\20130912092526567bb.jpg" />
+    <Content Include="css\images\2013091209335665f05.jpg" />
+    <Content Include="css\images\2013091209342509dcd.jpg" />
+    <Content Include="css\images\201309121111512857e.jpg" />
+    <Content Include="css\images\201309121112211bdb8.jpg" />
+    <Content Include="css\images\2013091211271571525.jpg" />
+    <Content Include="css\images\201309121127481f729.jpg" />
+    <Content Include="css\images\20130912140336986f2.jpg" />
+    <Content Include="css\images\20130926080056146f3.jpg" />
+    <Content Include="css\images\201309261042559e97b.jpg" />
+    <Content Include="css\images\20130926190018787cb.jpg" />
+    <Content Include="css\images\20130926234940d24ca.jpg" />
+    <Content Include="css\images\20130927101809eebd4.jpg" />
+    <Content Include="css\images\20130927105710fe051.jpg" />
+    <Content Include="css\images\2013092800203824798.jpg" />
+    <Content Include="css\images\20a.jpg" />
+    <Content Include="css\images\21.jpg" />
+    <Content Include="css\images\3.jpg" />
+    <Content Include="css\images\300x100.gif" />
+    <Content Include="css\images\310772035582a551c3afd8f6cc071409.jpg" />
+    <Content Include="css\images\323ce4b13f72648e096bd1a86cba762a.jpg" />
+    <Content Include="css\images\37.jpg" />
+    <Content Include="css\images\4.jpg" />
+    <Content Include="css\images\44b91d75de385dc1a70fe56600f41e52.jpg" />
+    <Content Include="css\images\4566087072217127787.jpg" />
+    <Content Include="css\images\4ffecc68cb780d1801f19db52d38cabd.jpg" />
+    <Content Include="css\images\4_1.jpg" />
+    <Content Include="css\images\5.jpg" />
+    <Content Include="css\images\5629506131282902209.png" />
+    <Content Include="css\images\59.jpg" />
+    <Content Include="css\images\6.jpg" />
+    <Content Include="css\images\644014746731105760.jpg" />
+    <Content Include="css\images\6597932883285231538.gif" />
+    <Content Include="css\images\7.jpg" />
+    <Content Include="css\images\75b.jpg" />
+    <Content Include="css\images\76.jpg" />
+    <Content Include="css\images\8.jpg" />
+    <Content Include="css\images\85dc407af2b2f7bfbbcb025a0ee0d66e.jpg" />
+    <Content Include="css\images\8ba76229-e856-4acb-815a-28af9bf82161.jpg" />
+    <Content Include="css\images\905505000178420928.jpg" />
+    <Content Include="css\images\960x100.jpg" />
+    <Content Include="css\images\9fae30738c94fb8e47dd2ba3e6003290.jpg" />
+    <Content Include="css\images\attlogo-news.png" />
+    <Content Include="css\images\auctionbg.png" />
+    <Content Include="css\images\azt.png" />
+    <Content Include="css\images\bg.jpg" />
+    <Content Include="css\images\bg_01.png" />
+    <Content Include="css\images\Bing_Rewards_0812_420x210_EN_US.jpg" />
+    <Content Include="css\images\bing_symbol_clr_52x52.png" />
+    <Content Include="css\images\blog-bg-bottom.jpg" />
+    <Content Include="css\images\blog-bg-top.jpg" />
+    <Content Include="css\images\blog-news-bg-center.jpg" />
+    <Content Include="css\images\blog-news-bg-top.jpg" />
+    <Content Include="css\images\bottom.png" />
+    <Content Include="css\images\c9cfb68c13cbe925d3c9a03912f3b1de.jpg" />
+    <Content Include="css\images\db24a59e-083d-45e4-b801-49ac0b5bbe4d.jpg" />
+    <Content Include="css\images\f23be4d33f61fda6d1769258ba6f48fb.jpg" />
+    <Content Include="css\images\f4fe9dd611bd459c0244159163109bc4.jpg" />
+    <Content Include="css\images\fallpromo_bug_black.png" />
+    <Content Include="css\images\fbfd9d0b-c75c-4699-9c00-28b6284818b3.jpg" />
+    <Content Include="css\images\fd4767d55565e368f7c380f1b80cb878.jpg" />
+    <Content Include="css\images\feat_FashionWeek_hl.jpg" />
+    <Content Include="css\images\game.gif" />
+    <Content Include="css\images\globalnav-text_GEO_CN.png" />
+    <Content Include="css\images\globalnav.png" />
+    <Content Include="css\images\globalsearch_field.png" />
+    <Content Include="css\images\head-apple-store.png" />
+    <Content Include="css\images\home-shelf-shopipad_GEO_CN.png" />
+    <Content Include="css\images\home-shelf-shopiphone_GEO_CN.png" />
+    <Content Include="css\images\home-shelf-shopipod_GEO_CN.png" />
+    <Content Include="css\images\home-shelf-shopmac_GEO_CN.png" />
+    <Content Include="css\images\icon2-8.png" />
+    <Content Include="css\images\icons-sprites-v3.png" />
+    <Content Include="css\images\img.jpg" />
+    <Content Include="css\images\imgsiz3e.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize.ph.126.net11.jpg" />
+    <Content Include="css\images\imgsize11.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize12.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize13.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize2.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize3.ph.126.net.jpg" />
+    <Content Include="css\images\imgsize4.ph.126.net.jpg" />
+    <Content Include="css\images\index.png" />
+    <Content Include="css\images\iphone5c-hero2-xl-2013.png" />
+    <Content Include="css\images\iphone5c-title-xl-2013.png" />
+    <Content Include="css\images\iphone5s-hero2-xl-2013.png" />
+    <Content Include="css\images\iphone5s-title-xl-2013.png" />
+    <Content Include="css\images\iphone5s5c-title-xl-2013_GEO_CN.png" />
+    <Content Include="css\images\list-icon1.jpg" />
+    <Content Include="css\images\list-icon2.jpg" />
+    <Content Include="css\images\login-24.png" />
+    <Content Include="css\images\logo-201305.png" />
+    <Content Include="css\images\logo-lg-1x.png" />
+    <Content Include="css\images\logo-type-1x.png" />
+    <Content Include="css\images\logo-war-107.gif" />
+    <Content Include="css\images\logo.png" />
+    <Content Include="css\images\menu-button.png" />
+    <Content Include="css\images\mobile.jpg" />
+    <Content Include="css\images\nav_sprite_v14.png" />
+    <Content Include="css\images\news-attitude-logo.png" />
+    <Content Include="css\images\news-icon.png" />
+    <Content Include="css\images\notice_new.png" />
+    <Content Include="css\images\ntes_bg.jpg" />
+    <Content Include="css\images\ntes_nav_img.gif" />
+    <Content Include="css\images\Office365_HPIotaBG_0128_1600x540_EN_US.jpg" />
+    <Content Include="css\images\office_symbol_clr_52x52.png" />
+    <Content Include="css\images\onbg.jpg" />
+    <Content Include="css\images\page-list-bg.jpg" />
+    <Content Include="css\images\prod_Surface2V2_hl.jpg" />
+    <Content Include="css\images\QQ图片20130913101422.jpg" />
+    <Content Include="css\images\QQ图片20131007134221.jpg" />
+    <Content Include="css\images\rBEDik_2v2MIAAAAAAFGssNIIeoAADwcQMtioEAAUbK285.jpg" />
+    <Content Include="css\images\rBEGFFAYlXUIAAAAAAF8I3iAj_QAABS1gNTaeUAAXw7465.jpg" />
+    <Content Include="css\images\rBEhU1ItNwUIAAAAAAGcKm3UiwoAAC8IQHC9esAAZxC069.jpg" />
+    <Content Include="css\images\rBEhUlITMlEIAAAAAAF72qspHgoAACQMQMsVN0AAXvy617.jpg" />
+    <Content Include="css\images\rBEhV1H3XLoIAAAAAAEF7pKMAgQAABkLQFXipEAAQYG655.jpg" />
+    <Content Include="css\images\rBEhV1JH1jkIAAAAAACm2tgMPoMAADs5APigZcAAKby552.jpg" />
+    <Content Include="css\images\rBEhVFHSQY8IAAAAAAInfyINqzgAAAsOQI4BRUAAieX997.jpg" />
+    <Content Include="css\images\rBEhWFJJOZ8IAAAAAAC6xIlcsUsAADtKgMaEBQAALrc568.jpg" />
+    <Content Include="css\images\rBEHZ1DFgAoIAAAAAADUBSc-4t8AADNHgBFL6IAANQd235.gif" />
+    <Content Include="css\images\rBEHZlDBYO8IAAAAAAG-SRyoSX0AADK2gMhzlEAAb5h982.jpg" />
+    <Content Include="css\images\rBEQWFFn3q8IAAAAAAEXSYUEpRkAAEAJACjQg4AARdh878.jpg" />
+    <Content Include="css\images\rBEQWVE0ON8IAAAAAADxIdYoeE4AABaCAP3oVYAAPE5307.jpg" />
+    <Content Include="css\images\rBEQWVF3STEIAAAAAAEi9ro0iMAAAE01gB2HTQAASMO468.jpg" />
+    <Content Include="css\images\rBEQYFGdf2oIAAAAAADrRLX0-mQAABzOgGmV8oAAOtc392.jpg" />
+    <Content Include="css\images\rBEQYFGnCLcIAAAAAAErPPzLXnwAACXCwGR9qMAAStU997.jpg" />
+    <Content Include="css\images\rBEQYVGfRzMIAAAAAACdYYQvkYEAAB8kwBk5UcAAJ15201.jpg" />
+    <Content Include="css\images\rBEQYVGRpEYIAAAAAAHvprRHmZoAABGaQBhyWsAAe--832.jpg" />
+    <Content Include="css\images\right-menu-active.png" />
+    <Content Include="css\images\right-menu-li.png" />
+    <Content Include="css\images\right_bg.jpg" />
+    <Content Include="css\images\rss.gif" />
+    <Content Include="css\images\sc2-bg-bottom.jpg" />
+    <Content Include="css\images\sc2-bg-center.jpg" />
+    <Content Include="css\images\sc2-bg-top.jpg" />
+    <Content Include="css\images\search-button-blue.png" />
+    <Content Include="css\images\search-button.png" />
+    <Content Include="css\images\skype_symbol_clr_52x52.png" />
+    <Content Include="css\images\sports_spr.png" />
+    <Content Include="css\images\spritebottom.png" />
+    <Content Include="css\images\spriteTit.png" />
+    <Content Include="css\images\Store_Ofc_420x210_EN_US.jpg" />
+    <Content Include="css\images\store_symbol_clr_52x52.png" />
+    <Content Include="css\images\SurfacePro_DeltaBG_0211_1600x540_EN_US.jpg" />
+    <Content Include="css\images\Surface_PreorderBG_0923_1600x540_EN_UK.jpg" />
+    <Content Include="css\images\tanke.jpg" />
+    <Content Include="css\images\theme_surfaceBing_hl.jpg" />
+    <Content Include="css\images\theme_youthspark1year_hl.jpg" />
+    <Content Include="css\images\top-images-border.png" />
+    <Content Include="css\images\top-images-button.png" />
+    <Content Include="css\images\top-news-icon.gif" />
+    <Content Include="css\images\top-news-line.jpg" />
+    <Content Include="css\images\under_bgrpeat.jpg" />
+    <Content Include="css\images\utilitynav-menu-icons.png" />
+    <Content Include="css\images\windowsphone_symbol_clr_52x52.png" />
+    <Content Include="css\images\windows_symbol_clr_52x52.png" />
+    <Content Include="css\images\WPnokia1020_yellowBG_0729_1600x540_EN_US.jpg" />
+    <Content Include="css\images\WPnokia1020_yellow_0729_420x210_EN_US.jpg" />
+    <Content Include="css\images\wrapbg.png" />
+    <Content Include="css\images\X.png" />
+    <Content Include="css\images\XboxOne_BlackBG_0729_1600x540_EN_US.jpg" />
+    <Content Include="css\images\xbox_symbol_clr_52x52.png" />
+    <Content Include="css\index.css" />
+    <Content Include="css\jd.css" />
+    <Content Include="css\Loft.css" />
+    <Content Include="css\Microsoft.css" />
+    <Content Include="css\PlugDemo.css" />
+    <Content Include="css\Sc2.css" />
+    <Content Include="css\test.css" />
+    <Content Include="js\apple.js" />
+    <Content Include="js\eBay.js" />
+    <Content Include="js\jd.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-2.0.2.js" />
+    <Content Include="js\jquery-2.0.2.min.js" />
+    <Content Include="js\jQuery.js" />
+    <Content Include="js\jquery.Xslider.js" />
+    <Content Include="js\js.js" />
+    <Content Include="js\Loft.js" />
+    <Content Include="js\Microsoft.js" />
+    <Content Include="js\PlugDemo.js" />
+    <Content Include="js\Sc2.js" />
+    <Content Include="js\test.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Surfing_HomePage.aspx" />
+    <Content Include="Surfing_Person.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SurfingMuban.Master.cs">
+      <DependentUpon>SurfingMuban.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SurfingMuban.Master.designer.cs">
+      <DependentUpon>SurfingMuban.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Surfing_HomePage.aspx.cs">
+      <DependentUpon>Surfing_HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Surfing_HomePage.aspx.designer.cs">
+      <DependentUpon>Surfing_HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Surfing_Person.aspx.cs">
+      <DependentUpon>Surfing_Person.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Surfing_Person.aspx.designer.cs">
+      <DependentUpon>Surfing_Person.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SurfingMuban.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3448</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
